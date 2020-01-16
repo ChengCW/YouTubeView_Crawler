@@ -11,8 +11,7 @@ import datetime
 
 url = "https://www.youtube.com/watch?v=AkfMX-MtT4E"
 request = requests.get(url)
-print(request.encoding)  #查看網頁返回的字符集類型
-print(request.apparent_encoding)
+
 
 content = request.content
 
